@@ -8,12 +8,20 @@ hamburger.addEventListener("click", function(){
 		menu.classList.add('shown')
 	}
 });
-	function product(price, size, color) {
-		this.price = price;
-		this.size = size;
-		this.color = color;
-	}
-	var mugs = new product("$20", "4x5", "blue");
-	var bowls = new product("$30", "Rally", "green"); 
-
 })();
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+var summerSlam = function(){    
+return{
+	formValidate: function(form){
+		alert("hello there");             
+		return false;         
+		}    
+	}
+;}();
+	
