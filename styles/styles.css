@@ -150,26 +150,47 @@ h1{
 	font-size: 10pt;
 	margin: 0;
 }
-.form {
+.form-body {
+	width: 960px;
+    height: auto;
+    margin: auto;
 	background-color: #fff;
-	color: #300701;
-	padding:20px;
+	padding:10px;
+	padding-bottom: 69px;
+}
+.form{
 	margin: auto;
+	position: relative;
 }
 .form h2{
-	color: #300701;
+	color: #ABABAB;
 	padding: 5px;
 	font-size: 14pt;
+	text-align: center;
 	margin: 0;
 	font-family: 'Roboto', sans serif;
 }
 .input{
-	color:pink;
+	color:#ABABAB;
+	width: 50%;
+    margin-left: 25%;
 	padding: 10px;
-	margin:auto;
+}
+.title h1{
+	padding-left: 10px;
+    color: #fff;
+    font-family: 'Roboto',sans serif;
+    font-size: 25pt;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
 }
 .submit{
-	margin-top: 5px;
+	width: 250px;
+    height: 44px;
+    font-size: 14pt;
+    margin-left: 25%;
+    margin-top: 10px;
 	padding: 5px;
 	color: #fff;
 	background: #300701;
